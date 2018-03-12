@@ -1,0 +1,1 @@
+2018/03/12 09:49:54 [error] 2683#2683: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: lulucms2.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "lulucms2.com:10080"
