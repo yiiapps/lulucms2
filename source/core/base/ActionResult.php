@@ -1,9 +1,9 @@
 <?php
 namespace source\core\base;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class ActionResult extends Object
+class ActionResult extends BaseObject
 {
 
     public $controller;
@@ -19,4 +19,3 @@ class ActionResult extends Object
         return $this->result;
     }
 }
-
